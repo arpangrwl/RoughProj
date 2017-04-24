@@ -9,5 +9,7 @@ public class AvroProg {
         Schema.Parser parser = new Schema.Parser();
       //  Schema schema = parser.parse(getClass().getResourceAsStream("StringPair.avsc"));
 
+        //making some changes here to check if
+
     }
 }
