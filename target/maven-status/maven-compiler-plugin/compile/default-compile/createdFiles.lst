@@ -1,0 +1,12 @@
+JacksonTester.class
+AvroProg.class
+com/test/Enumeration/basics/TestEnumeration$itsName.class
+ParsingJsonToTSV.class
+com/test/javaProperties/TestJavaPropertiesRead.class
+com/test/javaProperties/TestJavaPropertiesWrite.class
+com/test/Enumeration/basics/TestEnumeration$see.class
+RoughJsonFactory.class
+com/test/Enumeration/basics/TestEnumeration$1.class
+com/test/Enumeration/basics/TestEnumeration.class
+com/test/testClass.class
+RoughJsonParson.class
