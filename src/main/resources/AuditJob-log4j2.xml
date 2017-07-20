@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+    <Appenders>
+        <Console name="Console">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </Console>
+        <RollingFile name="RollingFile" fileName="/Users/Arpan/Documents/Apple_project/Intellij/RoughProj/src/main/logDir/ExecuteShellCmd-${date:yyyy-MM-dd}.log" filePattern="/Users/Arpan/Documents/Apple_project/Intellij/RoughProj/src/main/logDir/Log-${%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n}.log">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="200 MB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="5"/>
+        </RollingFile>
+    </Appenders>
+    <Loggers>
+        <Root level="trace">
+            <AppenderRef ref="RollingFile" level="TRACE"/>
+            <AppenderRef ref="Console" level="TRACE"/>
+        </Root>
+    </Loggers>
+</Configuration>

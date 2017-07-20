@@ -75,7 +75,8 @@ atlassian-ide-plugin.xml
 
 # Editor Files #
 ################
-
+.idea/*
+.idea/workspace.xml
 
 # Gradle Files #
 ################
